@@ -1,0 +1,35 @@
+{
+  "name": "share4appium",
+  "version": "0.0.1",
+  "description": "xshare nodejs appium test module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weixingsun/share4appium.git"
+  },
+  "keywords": [
+    "nodejs",
+    "appium"
+  ],
+  "author": "Weixing Sun <weixing.sun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weixingsun/share4appium/issues"
+  },
+  "homepage": "https://github.com/weixingsun/share4appium",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "colors": "^1.1.2",
+    "mocha": "^3.2.0",
+    "underscore": "^1.8.3",
+    "wd": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "wd": "latest"
+  }
+}
